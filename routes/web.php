@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//UjianController.php
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('ujian', 'UjianController');
